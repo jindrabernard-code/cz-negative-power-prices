@@ -18,7 +18,8 @@ import pandas as pd
 
 MJ_PER_MWH = 3600.0
 
-# IPCC 2006 default combustion factors, kg CO2 per GJ of fuel (net CV).
+# IPCC (2006, Vol. 2: Energy) default combustion factors, kg CO2 per GJ of fuel
+# (net CV).
 # Converted to tCO2 per MWh of fuel input.
 IPCC_KG_PER_GJ = {
     "lignite": 101.0,
@@ -33,8 +34,9 @@ FOSSIL_FRACTION = {              # share of carbon that is fossil
     "biomass": 0.0,              # treated as neutral
 }
 
-# Representative plant configurations. eta_el and eta_th are annual-average
-# efficiencies on fuel input; heat_c is the delivery temperature in Celsius.
+# Representative plant configurations (working assumptions of the thesis).
+# eta_el and eta_th are annual-average efficiencies on fuel input; heat_c is
+# the delivery temperature in Celsius.
 PLANTS = [
     # name,           fuel,              eta_el, eta_th, heat_c, kind
     ("lignite_chp",   "lignite",           0.30,  0.45,   95.0, "chp"),

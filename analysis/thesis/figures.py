@@ -3,8 +3,10 @@ Figures and tables of the thesis, in thesis numbering, written to
 output/thesis/figures and output/thesis/tables.
 
 Inputs: data/cz_power_panel.csv, data/neighbour_prices_2025.csv, the prepared
-dataset (prepare.py) and the scenario summaries (simulate.py). Values taken
-from publications are quoted below with their source.
+dataset (prepare.py) and the scenario summaries (simulate.py). The data
+sources are listed in data/README.md. Values taken from publications are
+quoted below with their source; full references are in thesis/README.md,
+which is also copied to output/thesis/README.md together with the captions.
 
 Black and white, Liberation Serif (falls back to DejaVu Serif).
 """
@@ -159,6 +161,7 @@ def fig_daccs_schema():
     bw, bh, y = 0.19, 0.29, 0.37
     xs = [0.02, 0.27, 0.52, 0.77]
     heads = ["1  Capture", "2  Regeneration", "3  Compression", "4  Storage"]
+    # energy use per tonne: working values of the thesis (Section 2.5)
     body = ["Fans push air\nthrough a filter\n(sorbent) that\nbinds CO\u2082",
             "Full filter is\nheated to about\n100 °C and\nreleases pure CO\u2082",
             "CO\u2082 is\ncompressed for\ntransport by\npipeline or ship",
@@ -723,6 +726,8 @@ def tables_text():
 
 
 def main():
+    import shutil
+    shutil.copy(C.ROOT / "thesis" / "README.md", C.OUT_DIR / "README.md")
     df = load_panel()
     fig_ipcc()
     fig_daccs_schema()

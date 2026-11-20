@@ -2,14 +2,17 @@
 Download the raw data behind data/cz_power_panel.csv, data/forecasts_cz_de.csv
 and data/neighbour_prices_2025.csv into raw/.
 
-Sources
-  OTE      day-ahead price and volume, daily XLS reports, no key (2020-2024)
-  ENTSO-E  CZ and DE-LU day-ahead price, CZ load and generation per type,
-           CZ and DE-LU day-ahead load/solar/wind forecasts, 2025 day-ahead
-           prices of the neighbouring zones (ENTSOE_API_KEY)
-  ČEPS     load, generation mix, RES infeed, cross-border flows, imbalance
-           price, no key
-  ERA5     wind, temperature, solar radiation over CZ (CDS_API_KEY, optional)
+Sources (full references in data/README.md)
+  OTE      OTE, a.s., day-ahead market results, daily XLS reports, no key
+           (2020-2024), https://www.ote-cr.cz/en/statistics/electricity/market-prices
+  ENTSO-E  ENTSO-E Transparency Platform, https://transparency.entsoe.eu,
+           via entsoe-py (ENTSOE_API_KEY): CZ and DE-LU day-ahead price, CZ load
+           and generation per type, CZ and DE-LU day-ahead load/solar/wind
+           forecasts, 2025 day-ahead prices of the neighbouring zones
+  ČEPS     ČEPS, a.s., data portal https://www.ceps.cz/en/all-data, no key:
+           load, generation mix, RES infeed, cross-border flows, imbalance price
+  ERA5     Copernicus Climate Change Service, ERA5 hourly data on single levels,
+           https://doi.org/10.24381/cds.adbb2d47 (CDS_API_KEY, optional)
 
 Files that already exist are skipped, so an interrupted run can be resumed.
 The OTE part fetches one report per day and takes about 20 minutes.

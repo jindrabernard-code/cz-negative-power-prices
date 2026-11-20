@@ -46,7 +46,8 @@ N_SIM_PATHS = 200
 SIM_SEED = 123
 SIM_PARAM_UNCERTAINTY = True            # θ_i ~ N(θ̂, V̂_sandwich) per path
 SIM_WEATHER_YEARS = [2023, 2024, 2025]
-# Czech solar infeed relative to 2024 (NECP build-out)
+# Czech solar infeed relative to 2024, derived from the build-out in the updated
+# National Energy and Climate Plan (MPO, 2024)
 SOLAR_SCENARIOS = {
     "today": 1.0,
     "necp_2030_low": 1.6,
@@ -54,7 +55,11 @@ SOLAR_SCENARIOS = {
     "necp_2030_high": 2.6,
     "necp_2035_central": 3.0,
 }
-# DE-LU solar paired with each scenario in the joint variant (§ 4 EEG 2023)
+# DE-LU solar paired with each scenario in the joint variant: § 4 No. 3 EEG 2023
+# (Deutscher Bundestag, 2022) sets 215 GW of PV for 2030 and 309 GW for 2035,
+# against about 99 GW installed at the end of 2024 (Bundesnetzagentur), so
+# 2.17 and 3.1. The 2030 low and central factors (1.8, 2.0) follow the recent
+# build rate of about 16 GW per year instead of the target.
 DE_SOLAR_SCENARIOS = {
     "today": 1.0,
     "necp_2030_low": 1.8,
@@ -64,6 +69,8 @@ DE_SOLAR_SCENARIOS = {
 }
 
 # ── emission factors, tCO2 per MWh of electricity ───────────────────────────
+# Direct (combustion) emissions per MWh as used in the thesis model (Table 6);
+# biomass is counted as zero.
 EMISSION_FACTORS = {
     "entsoe_gen_fossil_brown_coal_lignite": 1.06,
     "entsoe_gen_fossil_hard_coal": 0.87,

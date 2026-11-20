@@ -68,3 +68,57 @@ Source: own computation from ENTSO-E generation data. Note: direct emissions per
 
 **Table 7: [Emission factor of delivered heat by allocation convention (tCO₂/MWhₜₕ)](tables/tab07_emission_factor_of_delivered_heat_by.csv)**  
 Source: own computation, combustion factors from IPCC (2006). Note: η el and η th are the electrical and heat efficiencies, heat is delivered at 90–95 °C. For a boiler the three conventions coincide. Where the fuel would burn anyway (waste under a disposal obligation), the marginal factor is zero.
+
+## Data sources
+
+Figures and tables computed from data use the files in `data/`. Their sources are listed in
+[`data/README.md`](../data/README.md): OTE (2026), ENTSO-E Transparency Platform (Hirth,
+Mühlenpfordt and Bulkeley, 2018), ČEPS (2026) and ERA5 (Hersbach et al., 2020). Values taken
+from publications are cited in the captions above and in the code
+(`analysis/thesis/figures.py`, `analysis/thesis/heat.py`, `analysis/thesis/config.py`).
+
+## References
+
+- CDR.fyi and OPIS (2025). *Bridging the Gap: Durable CDR Market Pricing Survey.* January 2025.
+  https://www.cdr.fyi/reports/pricing-survey-jan-2025.pdf [accessed 11 July 2026].
+- ČEPS (2026). *Data: system load, generation by source, renewable infeed, cross-border flows and
+  imbalance prices, 2020–2025.* Prague: ČEPS, a.s. https://www.ceps.cz/en/all-data
+  [accessed 15 August 2026].
+- Deutscher Bundestag (2022). *Gesetz zu Sofortmaßnahmen für einen beschleunigten Ausbau der
+  erneuerbaren Energien und weiteren Maßnahmen im Stromsektor vom 20. Juli 2022 (EEG 2023).*
+  Bundesgesetzblatt I, p. 1237. § 4 No. 3: expansion path for solar installations (German solar
+  factors in Figure 6).
+- ESMA (2026). *EU carbon markets 2026.* ESMA Market Report ESMA50-481369926-34622, 9 July 2026.
+  Paris: European Securities and Markets Authority.
+- European Commission (2026). Commission Delegated Regulation (EU) 2026/285 of 3 February 2026
+  supplementing Regulation (EU) 2024/3012 by establishing the certification methodologies for
+  permanent carbon removals activities. *Official Journal of the European Union*, L series,
+  17 April 2026.
+- European Union (2024). Regulation (EU) 2024/3012 of the European Parliament and of the Council
+  of 27 November 2024 establishing a Union certification framework for permanent carbon
+  removals, carbon farming and carbon storage in products. *Official Journal of the European
+  Union*, L series, 6 December 2024.
+- Fuss, S., Lamb, W. F., Callaghan, M. W. et al. (2018). Negative emissions – Part 2: Costs,
+  potentials and side effects. *Environmental Research Letters*, 13(6), 063002.
+- Hersbach, H., Bell, B., Berrisford, P. et al. (2020). The ERA5 global reanalysis. *Quarterly
+  Journal of the Royal Meteorological Society*, 146(730), 1999–2049.
+- Hirth, L., Mühlenpfordt, J. and Bulkeley, M. (2018). The ENTSO-E Transparency Platform – A
+  review of Europe's most ambitious electricity data platform. *Applied Energy*, 225, 1054–1067.
+- IPCC (2006). *2006 IPCC Guidelines for National Greenhouse Gas Inventories, Volume 2: Energy.*
+  Hayama: Institute for Global Environmental Strategies.
+- IPCC (2021). Summary for Policymakers. In: *Climate Change 2021: The Physical Science Basis.
+  Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel
+  on Climate Change.* Cambridge: Cambridge University Press, 3–32.
+- MPO, Ministry of Industry and Trade of the Czech Republic (2024). *Update of the National
+  Energy and Climate Plan of the Czech Republic.* Prague: MPO. (Basis of the Czech solar
+  factors in Figure 6.)
+- Nissen, C., Cludius, J., Gores, S., Skribbe, R. and Wissner, N. (2025). *Trends and projections
+  in the EU ETS in 2025: The EU Emissions Trading System in numbers.* ETC CM Report 2025/06.
+  Copenhagen: European Topic Centre on Climate Change Mitigation, European Environment Agency.
+- OTE (2026). *Day-ahead market results: hourly prices and volumes in the Czech bidding zone,
+  2020–2025.* Prague: OTE, a.s. https://www.ote-cr.cz/en/statistics/electricity/market-prices
+  [accessed 15 October 2026].
+- Smith, S. M., Geden, O., Gidden, M. J. et al. (eds.) (2024). *The State of Carbon Dioxide
+  Removal – 2nd Edition.* Oxford: Smith School of Enterprise and the Environment.
+- WMO, World Meteorological Organization (2025). *State of the Global Climate 2024.* WMO-No. 1368.
+  Geneva: WMO.

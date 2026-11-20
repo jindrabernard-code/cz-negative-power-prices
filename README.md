@@ -12,6 +12,18 @@ python analysis/descriptives.py
 
 Tables and figures are written to `output/`.
 
+## Data sources
+
+- OTE, a.s., day-ahead market results, [ote-cr.cz](https://www.ote-cr.cz/en/statistics/electricity/market-prices)
+- ENTSO-E Transparency Platform, [transparency.entsoe.eu](https://transparency.entsoe.eu)
+- ČEPS, a.s., data portal, [ceps.cz/en/all-data](https://www.ceps.cz/en/all-data)
+- Copernicus Climate Change Service, ERA5 hourly data on single levels,
+  [doi:10.24381/cds.adbb2d47](https://doi.org/10.24381/cds.adbb2d47)
+
+Which column comes from which source, and the references, are in
+[`data/README.md`](data/README.md). The sources of every thesis figure and table, including
+the values taken from publications, are in [`thesis/README.md`](thesis/README.md).
+
 ## Thesis figures and tables
 
 ```sh
