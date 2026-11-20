@@ -46,8 +46,10 @@ N_SIM_PATHS = 200
 SIM_SEED = 123
 SIM_PARAM_UNCERTAINTY = True            # θ_i ~ N(θ̂, V̂_sandwich) per path
 SIM_WEATHER_YEARS = [2023, 2024, 2025]
-# Czech solar infeed relative to 2024, derived from the build-out in the updated
-# National Energy and Climate Plan (MPO, 2024)
+# Czech solar infeed relative to 2024. The updated National Energy and Climate
+# Plan foresees about 10 GW of PV by 2030 (MPO, 2024); installed capacity at
+# the end of 2024 was roughly 4 GW (author's estimate from the peak ČEPS solar
+# infeed, thesis Section 3.2).
 SOLAR_SCENARIOS = {
     "today": 1.0,
     "necp_2030_low": 1.6,
@@ -55,11 +57,12 @@ SOLAR_SCENARIOS = {
     "necp_2030_high": 2.6,
     "necp_2035_central": 3.0,
 }
-# DE-LU solar paired with each scenario in the joint variant: § 4 No. 3 EEG 2023
-# (Deutscher Bundestag, 2022) sets 215 GW of PV for 2030 and 309 GW for 2035,
-# against about 99 GW installed at the end of 2024 (Bundesnetzagentur), so
-# 2.17 and 3.1. The 2030 low and central factors (1.8, 2.0) follow the recent
-# build rate of about 16 GW per year instead of the target.
+# DE-LU solar paired with each scenario in the joint variant. § 4 No. 3 EEG 2023
+# (Deutscher Bundestag, 2022) sets 215 GW of PV for 2030 and 309 GW for 2035;
+# 99.3 GW were installed at the end of 2024 (Bundesnetzagentur, 2025), so
+# 215 / 99.3 = 2.17 and 309 / 99.3 = 3.1. The 2030 central factor continues the
+# 2024 build rate of 16.2 GW per year (Bundesnetzagentur, 2025):
+# (99.3 + 6 x 16.2) / 99.3 = 2.0; the low factor 1.8 assumes a slower build-out.
 DE_SOLAR_SCENARIOS = {
     "today": 1.0,
     "necp_2030_low": 1.8,

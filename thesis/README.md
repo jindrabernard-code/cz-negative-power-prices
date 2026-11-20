@@ -79,6 +79,11 @@ from publications are cited in the captions above and in the code
 
 ## References
 
+- Bundesnetzagentur (2025). *Ausbau Erneuerbarer Energien 2024.* Press release, 8 January 2025.
+  https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250108_EE.html
+  [accessed 20 November 2026]. German PV capacity at the end of 2024 (99.3 GW) and 2024
+  build-out (16.2 GW), the reference for the German solar factors in Figure 6. Not cited in
+  the thesis text.
 - CDR.fyi and OPIS (2025). *Bridging the Gap: Durable CDR Market Pricing Survey.* January 2025.
   https://www.cdr.fyi/reports/pricing-survey-jan-2025.pdf [accessed 11 July 2026].
 - ČEPS (2026). *Data: system load, generation by source, renewable infeed, cross-border flows and
@@ -86,8 +91,9 @@ from publications are cited in the captions above and in the code
   [accessed 15 August 2026].
 - Deutscher Bundestag (2022). *Gesetz zu Sofortmaßnahmen für einen beschleunigten Ausbau der
   erneuerbaren Energien und weiteren Maßnahmen im Stromsektor vom 20. Juli 2022 (EEG 2023).*
-  Bundesgesetzblatt I, p. 1237. § 4 No. 3: expansion path for solar installations (German solar
-  factors in Figure 6).
+  Bundesgesetzblatt I, p. 1237. § 4 No. 3: expansion path for solar installations, 215 GW in
+  2030 and 309 GW in 2035 (German solar factors in Figure 6).
+  https://www.gesetze-im-internet.de/eeg_2014/__4.html
 - ESMA (2026). *EU carbon markets 2026.* ESMA Market Report ESMA50-481369926-34622, 9 July 2026.
   Paris: European Securities and Markets Authority.
 - European Commission (2026). Commission Delegated Regulation (EU) 2026/285 of 3 February 2026
@@ -110,8 +116,8 @@ from publications are cited in the captions above and in the code
   Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel
   on Climate Change.* Cambridge: Cambridge University Press, 3–32.
 - MPO, Ministry of Industry and Trade of the Czech Republic (2024). *Update of the National
-  Energy and Climate Plan of the Czech Republic.* Prague: MPO. (Basis of the Czech solar
-  factors in Figure 6.)
+  Energy and Climate Plan of the Czech Republic.* Prague: MPO. About 10 GW of PV by 2030,
+  the basis of the Czech solar factors in Figure 6.
 - Nissen, C., Cludius, J., Gores, S., Skribbe, R. and Wissner, N. (2025). *Trends and projections
   in the EU ETS in 2025: The EU Emissions Trading System in numbers.* ETC CM Report 2025/06.
   Copenhagen: European Topic Centre on Climate Change Mitigation, European Environment Agency.
