@@ -82,8 +82,7 @@ from publications are cited in the captions above and in the code
 - Bundesnetzagentur (2025). *Ausbau Erneuerbarer Energien 2024.* Press release, 8 January 2025.
   https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250108_EE.html
   [accessed 20 November 2026]. German PV capacity at the end of 2024 (99.3 GW) and 2024
-  build-out (16.2 GW), the reference for the German solar factors in Figure 6. Not cited in
-  the thesis text.
+  build-out (16.2 GW), the reference for the German solar factors in Figure 6.
 - CDR.fyi and OPIS (2025). *Bridging the Gap: Durable CDR Market Pricing Survey.* January 2025.
   https://www.cdr.fyi/reports/pricing-survey-jan-2025.pdf [accessed 11 July 2026].
 - ČEPS (2026). *Data: system load, generation by source, renewable infeed, cross-border flows and
@@ -96,6 +95,12 @@ from publications are cited in the captions above and in the code
   https://www.gesetze-im-internet.de/eeg_2014/__4.html
 - ESMA (2026). *EU carbon markets 2026.* ESMA Market Report ESMA50-481369926-34622, 9 July 2026.
   Paris: European Securities and Markets Authority.
+- ERÚ, Energy Regulatory Office (2026). *Čtvrtletní zpráva o provozu elektrizační soustavy České
+  republiky, I. čtvrtletí 2026 / Quarterly report on the operation of the Czech electricity
+  system, Q1 2026.* Jihlava: ERÚ.
+  https://eru.gov.cz/sites/default/files/obsah/prilohy/ctvrtletnizprava2026iq.pdf
+  [accessed 20 November 2026]. Installed PV capacity of 4,759.3 MW on 31 March 2026, the
+  reference for the Czech solar factors in Figure 6.
 - European Commission (2026). Commission Delegated Regulation (EU) 2026/285 of 3 February 2026
   supplementing Regulation (EU) 2024/3012 by establishing the certification methodologies for
   permanent carbon removals activities. *Official Journal of the European Union*, L series,

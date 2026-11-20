@@ -46,10 +46,10 @@ N_SIM_PATHS = 200
 SIM_SEED = 123
 SIM_PARAM_UNCERTAINTY = True            # θ_i ~ N(θ̂, V̂_sandwich) per path
 SIM_WEATHER_YEARS = [2023, 2024, 2025]
-# Czech solar infeed relative to 2024. The updated National Energy and Climate
-# Plan foresees about 10 GW of PV by 2030 (MPO, 2024); installed capacity at
-# the end of 2024 was roughly 4 GW (author's estimate from the peak ČEPS solar
-# infeed, thesis Section 3.2).
+# Czech solar scenarios: about 10 GW of PV by 2030 in the updated National
+# Energy and Climate Plan (MPO, 2024) against 4,759 MW installed on 31 March
+# 2026 (ERÚ, 2026), so the central 2030 factor is 10 / 4.76 = 2.1. The low and
+# high 2030 variants (1.6, 2.6) bracket it, and 3.0 extrapolates to 2035.
 SOLAR_SCENARIOS = {
     "today": 1.0,
     "necp_2030_low": 1.6,
