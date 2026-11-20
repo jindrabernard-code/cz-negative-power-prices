@@ -1,0 +1,14 @@
+,"Sunday 12 May, 13:00","Wednesday 17 January, 18:00"
+Solar,"2,252",0
+Wind,37,145
+Hydro,140,"1,239"
+Nuclear,"2,683","2,886"
+Lignite,778,"4,547"
+Other fossil,105,"1,253"
+"Biomass, waste, other",611,678
+Total generation,"6,606","10,749"
+Net physical import,439,"−1,234"
+Pumped-storage pumping,624,0
+Load,"6,386","9,539"
+CZ day-ahead price (EUR/MWh),−138.8,122.3
+DE day-ahead price (EUR/MWh),−135.4,123.6

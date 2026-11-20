@@ -1,0 +1,5 @@
+Source,Datasets,Native resolution,Role in analysis
+"OTE, a.s. (Czech market operator; OTE, 2026)",Day-ahead clearing prices and traded volumes,hourly,dependent variable (Layer A)
+"ENTSO-E Transparency Platform (Hirth, Mühlenpfordt and Bulkeley, 2018)","CZ and DE day-ahead prices, actual load, generation per production type, day-ahead load, solar and wind forecasts (CZ, DE-LU)",hourly / 15-min,"forecast residual load (regime and logit regressors), covariates, cross-check, market-coupling control, emission intensity"
+"ČEPS, a.s. (Czech transmission system operator; ČEPS, 2026)","System load, generation mix by technology, wind and solar infeed, cross-border physical flows, imbalance prices",hourly (imbalance 15-min),"covariates, robustness"
+"ERA5 reanalysis (Hersbach et al., 2020)","100 m wind components, 2 m temperature, surface solar radiation","hourly, 0.25° grid",weather robustness checks
