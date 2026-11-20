@@ -1,0 +1,7 @@
+Heat source,η el,η th,Fuel factor (tCO₂/MWh fuel),Energy,Exergy,Power-loss
+Lignite CHP,0.30,0.45,0.364,0.485,0.208,0.202
+Hard coal CHP,0.32,0.44,0.341,0.448,0.186,0.211
+Gas CHP,0.40,0.42,0.202,0.246,0.090,0.118
+Waste incineration CHP,0.20,0.55,0.165,0.220,0.117,0.060
+Gas boiler,0.00,0.92,0.202,0.220,0.220,0.220
+Lignite boiler,0.00,0.85,0.364,0.428,0.428,0.428

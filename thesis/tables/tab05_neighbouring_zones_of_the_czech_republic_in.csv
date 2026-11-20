@@ -1,0 +1,5 @@
+Zone,Price corr. with CZ,Negative when CZ negative (%),Import to CZ (TWh),Export from CZ (TWh),Net import (TWh),"Mean net import, all hours (MW)","Mean net import, CZ negative hours (MW)"
+Germany,0.92,97,7.2,1.9,5.2,596,852
+Austria,0.94,92,0.1,8.9,−8.9,"−1,011",−305
+Slovakia,0.93,88,0.4,10.4,−10.0,"−1,142",−847
+Poland,0.84,68,6.7,0.4,6.3,717,668
