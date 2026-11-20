@@ -4,13 +4,14 @@
 |---|---|---|---|
 | `cz_power_panel.csv` | 52,608 | 2020-01-01 00:00 to 2025-12-31 23:00 | Czech prices, load, generation, cross-border flows, weather |
 | `forecasts_cz_de.csv` | 26,304 | 2023-01-01 00:00 to 2025-12-31 23:00 | Day-ahead load, solar and wind forecasts for CZ and DE-LU |
+| `neighbour_prices_2025.csv` | 8,760 | 2025-01-01 00:00 to 2025-12-31 23:00 | Day-ahead prices of CZ, DE-LU, AT, SK and PL (ENTSO-E) |
 
 ## Conventions
 
 - Index `datetime` is naive UTC, hourly and continuous. Local time is Europe/Prague.
 - 15-minute source data are averaged to hourly means.
 - Prices in EUR/MWh, except the ČEPS imbalance price (CZK/MWh). Power in MW.
-- Cross-border flows: positive = export from CZ.
+- Cross-border flows: positive = flow into CZ (import).
 - Missing values are empty cells.
 - `cz_power_panel.csv` uses CRLF line endings. Read it with
   `pd.read_csv(path, index_col=0, parse_dates=True, float_precision="round_trip")`.

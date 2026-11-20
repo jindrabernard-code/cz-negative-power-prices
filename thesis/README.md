@@ -1,6 +1,6 @@
 # Thesis figures and tables
 
-Figures and tables as used in the thesis, in thesis numbering. Tables are exported as CSV.
+Figures and tables as printed in the thesis, in thesis numbering. Tables are exported as CSV. `analysis/thesis/run.py` recomputes them into `output/thesis/`.
 
 ## Figures
 
